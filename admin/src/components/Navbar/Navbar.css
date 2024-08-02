@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+
+    background: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+    margin-right: 10px;
+}
+#logo-nav{
+    border: 2px solid orangered;
+    height: 65px;
+    width: 65px;
+    border-radius: 35px;
+    background: orangered;
+}
+.login-btn{
+    
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}
